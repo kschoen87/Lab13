@@ -1,0 +1,377 @@
+\documentclass[10pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage{hanging}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage[colorlinks=true, linkcolor=blue]{hyperref}
+\usepackage{parskip}
+\usepackage{listings}
+\usepackage{mdframed}
+\usepackage{pifont}
+\usepackage{tikz}
+\usepackage{tikzpagenodes}
+\usepackage{ragged2e}
+\usepackage{url}
+%\usepackage{lipsum} %remove later
+\doublespacing
+%\setlength\parindent{28 pt}
+\geometry{letterpaper, margin=1in}
+
+% ++++ Color definitions ++++
+\definecolor{highcol}{HTML}{C00000}
+\definecolor{medcol}{HTML}{BF8F00}
+\definecolor{lowcol}{HTML}{375623}
+\definecolor{immediatecol}{HTML}{C00000}
+\definecolor{shortcol}{HTML}{E26B0A}
+\definecolor{longcol}{HTML}{375623}
+\definecolor{headercol}{HTML}{1F4E79}
+\definecolor{lightyellow}{HTML}{FFF2CC}
+\definecolor{lightgreen}{HTML}{EBF1DD}
+\definecolor{lightred}{HTML}{FFD7D7}
+\definecolor{lightgray}{HTML}{EDEDED}
+\definecolor{codebg}{HTML}{F5F5F5}
+\definecolor{codeframe}{HTML}{CCCCCC}
+\definecolor{impactbg}{HTML}{FFF2CC}
+\definecolor{impactframe}{HTML}{BF8F00}
+\definecolor{verifybg}{HTML}{EBF1DD}
+\definecolor{verifyframe}{HTML}{375623}
+\definecolor{warnbg}{HTML}{FFD7D7}
+\definecolor{warnframe}{HTML}{C00000}
+\definecolor{notebg}{HTML}{DDEEFF}
+\definecolor{noteframe}{HTML}{1F4E79}
+\definecolor{checkbg}{HTML}{F2F2F2}
+\definecolor{checkframe}{HTML}{595959}
+\definecolor{acccol}{HTML}{1F4E79}
+\definecolor{transcol}{HTML}{375623}
+\definecolor{integcol}{HTML}{7030A0}
+\definecolor{authcol}{HTML}{C00000}
+\definecolor{immediatecol}{HTML}{C00000}
+\definecolor{shortcol}{HTML}{E26B0A}
+\definecolor{longcol}{HTML}{375623}
+\definecolor{totalrowcol}{HTML}{D9E1F2}
+\definecolor{subtotalcol}{HTML}{F2F2F2}
+ 
+
+% ++++ Convenience macros ++++
+% Severity badge: \sevbadge{colour}{label}
+\newcommand{\sevbadge}[2]{%
+  \colorbox{#1}{\color{white}\textbf{\small #2}}%
+}
+ 
+% Timeframe badge
+\newcommand{\tfbadge}[2]{%
+  \colorbox{#1}{\color{white}\textbf{\small #2}}%
+}
+ 
+% Header row cell (white text on dark blue)
+\newcommand{\hcell}[1]{%
+  \cellcolor{headercol}\color{white}\textbf{#1}%
+}
+
+\newcommand{\sectionrule}{%
+  \vspace{4pt}\noindent\textcolor{headercol}{\rule{\linewidth}{0.8pt}}\vspace{4pt}%
+}
+
+\newcommand{\hipbadge}[2]{%
+  \colorbox{#1}{\color{white}\textbf{\small #2}}%
+}
+
+% Checkbox item
+\newcommand{\cbox}{\ding{113}\;}
+
+% ── Listings style (terminal / config blocks) ────────────────────────────
+\lstdefinestyle{terminal}{
+  backgroundcolor=\color{codebg},
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  breakatwhitespace=false,
+  frame=single,
+  rulecolor=\color{codeframe},
+  xleftmargin=8pt,
+  xrightmargin=8pt,
+  aboveskip=6pt,
+  belowskip=6pt,
+  showstringspaces=false,
+  columns=fullflexible,
+  keepspaces=true,
+}
+ 
+% ── Framed boxes ─────────────────────────────────────────────────────────
+\newmdenv[
+  backgroundcolor=impactbg,
+  linecolor=impactframe,
+  linewidth=1.2pt,
+  innerleftmargin=8pt,
+  innerrightmargin=8pt,
+  innertopmargin=6pt,
+  innerbottommargin=6pt,
+  skipabove=6pt,
+  skipbelow=6pt,
+]{impactbox}
+ 
+\newmdenv[
+  backgroundcolor=verifybg,
+  linecolor=verifyframe,
+  linewidth=1.2pt,
+  innerleftmargin=8pt,
+  innerrightmargin=8pt,
+  innertopmargin=6pt,
+  innerbottommargin=6pt,
+  skipabove=6pt,
+  skipbelow=6pt,
+]{verifybox}
+ 
+\newmdenv[
+  backgroundcolor=warnbg,
+  linecolor=warnframe,
+  linewidth=1.2pt,
+  innerleftmargin=8pt,
+  innerrightmargin=8pt,
+  innertopmargin=6pt,
+  innerbottommargin=6pt,
+  skipabove=6pt,
+  skipbelow=6pt,
+]{warnbox}
+
+\newmdenv[
+  backgroundcolor=notebg,
+  linecolor=noteframe,
+  linewidth=1.2pt,
+  innerleftmargin=8pt,
+  innerrightmargin=8pt,
+  innertopmargin=6pt,
+  innerbottommargin=6pt,
+  skipabove=6pt,
+  skipbelow=6pt,
+]{notebox}
+
+\newmdenv[
+  backgroundcolor=checkbg,
+  linecolor=checkframe,
+  linewidth=1.2pt,
+  innerleftmargin=8pt,
+  innerrightmargin=8pt,
+  innertopmargin=6pt,
+  innerbottommargin=6pt,
+  skipabove=6pt,
+  skipbelow=6pt,
+]{checklistbox}
+
+% ++++ Fancy Settings (for header) ++++
+\pagestyle{plain}
+\fancypagestyle{main}{
+	\fancyhf{}
+	\lhead{Log Analysis with Splunk}
+	\rhead{\leftmark}
+	\cfoot{\thepage}
+	\renewcommand{\headrulewidth}{0.4pt}
+}
+
+% Column widths (tweak the numbers if you want)
+\newcommand{\colNum}{0.06\linewidth}   % column 1 (1–10)
+\newcommand{\colSmall}{0.16\linewidth} % columns 2,3,5
+\newcommand{\colBig}{0.48\linewidth}   % column 4 (3x colSmall)
+
+% ++++ Begin Doc ++++
+
+\begin{document}
+
+% ++++ Cover Page ++++
+
+\begin{titlepage}
+  \begin{tikzpicture}[remember picture, overlay]
+  \draw[line width=1pt]
+    ([shift={(1in,-1in)}]current page.north west)
+    rectangle
+    ([shift={(-1in,1in)}]current page.south east);
+\end{tikzpicture}
+\centering
+\vfill
+
+% ++Logo
+\includegraphics[width=0.35\textwidth]{images/icons/logo1.png}
+\includegraphics[width=0.35\textwidth]{images/icons/logo2.png}
+
+\vspace{1.5cm}
+
+% ++Title
+\LARGE{\textbf{Lab 13: Log Analysis with Splunk}}\\
+\vspace{0.3cm}
+\large{\textbf{Keith Schoen}}\\
+\vspace{0.3cm}
+\large{\textbf{CSEC3755-001}}\\
+\vspace{0.3cm}
+\large{\textbf{Dr. Daniel Pittman}}\\
+\vspace{0.3cm}
+\large{\textbf{8 May 2026}}\\
+\vspace{0.3cm}
+
+\vfill
+\end{titlepage}
+
+% ++++ ToC ++++
+
+\pagenumbering{gobble} %hide page numbers for cover and ToC
+\tableofcontents
+\clearpage
+
+% ++++ Begin Report ++++
+
+\pagenumbering{arabic} %page one starts here
+\setcounter{page}{1}
+\pagestyle{main} %turn on fancy
+
+
+\vfill
+\textit{++report written with (minimal) help from Claude (Sonnet 4.6)++}
+\end{document}
+
+% +++++++++ Helpful stuff +++++++++++
+%
+% +++ Using Minipages +++
+% \begin{minipage}[t]{\linewidth}
+% \includegraphics[width=0.50\textwidth]{*Image file}\\
+% \textit{*Image subtitle}
+% \end{minipage}
+% \end{enumerate}
+%
+
+% ++++++++ Non Ticked Lists (terminal style) ++++++++++++
+%\begin{lstlisting}[style=terminal]
+%# Flush all existing rules
+%iptables -F
+%iptables -X
+%iptables -t nat -F
+%iptables -t nat -X
+ 
+%# Set default DROP on INPUT and FORWARD; OUTPUT remains ACCEPT
+%iptables -P INPUT DROP
+%iptables -P FORWARD DROP
+%iptables -P OUTPUT ACCEPT
+%\end{lstlisting}
+
+% +++++++ Example for Using Boxes(Defined at top) +++++++++++++
+%\begin{warnbox}
+%\textbf{Warning:} After setting INPUT to DROP, new SSH sessions from untrusted
+%interfaces will be blocked immediately. Ensure you are connected via eth0
+%(management side) before proceeding, or have console access as a fallback.
+%\end{warnbox}
+
+% +++  Longtable exa,mple (with color) +++
+%\noindent
+%\begin{longtable}{>{\bfseries}p{0.8cm} p{2.0cm} p{5.2cm} p{1.3cm} p{1.5cm} p{2.4cm}}
+%  \rowcolor{headercol}
+%  \hcell{ID} & \hcell{Severity} & \hcell{Finding} &
+%  \hcell{CVSS} & \hcell{Composite} & \hcell{System(s)} \\
+%  \endfirsthead
+%  \rowcolor{headercol}
+%  \hcell{ID} & \hcell{Severity} & \hcell{Finding} &
+%  \hcell{CVSS} & \hcell{Composite} & \hcell{System(s)} \\
+%  \endhead
+%  \midrule
+%  \hline
+%  F1 &
+%  \sevbadge{medcol}{MEDIUM} &
+%  Anonymous FTP login --- confidential directory exposed &
+%  \cellcolor{lightyellow}6.4 &
+%  \cellcolor{lightred}\textbf{5.00} &
+%  Ubuntu (.102) \\[4pt]
+% \hline
+%  F2 &
+%  \sevbadge{medcol}{MEDIUM} &
+%  Cleartext HTTP credential transmission &
+%  \cellcolor{lightyellow}4.8 &
+%  \cellcolor{lightred}\textbf{4.45} &
+%  Ubuntu (.102) \\[4pt]
+% \hline
+%  F3 &
+%  \sevbadge{medcol}{MEDIUM} &
+%  FTP authenticated sessions over cleartext &
+%  \cellcolor{lightyellow}4.8 &
+%  3.95 &
+%  Ubuntu (.102) \\[4pt]
+% \hline
+%  FW1 &
+%  \sevbadge{highcol}{HIGH{*}} &
+%  Firewall default ACCEPT policy on all chains &
+% \cellcolor{lightgray}N/A &
+%  \cellcolor{lightgray}N/A &
+%  Router (.106) \\[4pt]
+% \hline
+%  FW2 &
+%  \sevbadge{highcol}{HIGH{*}} &
+%  Unrestricted inter-zone forwarding (all ports/protocols) &
+%  \cellcolor{lightgray}N/A &
+%  \cellcolor{lightgray}N/A &
+%  Router (.106) \\[4pt]
+% \hline
+%  FW3 &
+%  \sevbadge{medcol}{MEDIUM} &
+%  No stateful inspection --- no established/related tracking &
+%  \cellcolor{lightgray}N/A &
+%  \cellcolor{lightgray}N/A &
+%  Router (.106) \\[4pt]
+% \hline
+%  FW4 &
+%  \sevbadge{medcol}{MEDIUM} &
+%  Management services (SSH, Webmin) exposed on all interfaces &
+%  \cellcolor{lightgray}N/A &
+%  \cellcolor{lightgray}N/A &
+%  Router (.106) \\[4pt]
+% \hline
+%  F4 &
+%  \sevbadge{medcol}{MEDIUM} &
+%  Deprecated TLS 1.0/1.1 on RDP service &
+%  \cellcolor{lightyellow}4.3 &
+% 3.75 &
+%  Windows (.105) \\[4pt]
+% \hline
+%  F5 &
+%  \sevbadge{medcol}{MEDIUM} &
+%  DCE/RPC endpoint enumeration --- internal service map exposed &
+%  \cellcolor{lightyellow}5.0 &
+%  3.45 &
+%  Windows (.105) \\[4pt]
+% \hline
+%  F6 &
+%  \sevbadge{lowcol}{LOW} &
+%  Weak SSH MAC algorithms (umac-64) on both servers &
+%  \cellcolor{lightgreen}2.6 &
+%  2.50 &
+% \hline
+%  F7 &
+%  \sevbadge{lowcol}{LOW} &
+%  TCP timestamp information disclosure &
+%  \cellcolor{lightgreen}2.6 &
+%  1.95 &
+%  Ubuntu, Windows \\[4pt]
+% \hline
+%  F8 &
+%  \sevbadge{lowcol}{LOW} &
+%  ICMP timestamp reply enabled &
+%  \cellcolor{lightgreen}2.1 &
+%  1.95 &
+%  Ubuntu (.102) \\[4pt]
+%  \bottomrule
+%\end{longtable}
+
+
+
+
+
+
+
+
+
+
+
+
