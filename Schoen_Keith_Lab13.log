@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  5 MAY 2026 02:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  5 MAY 2026 15:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -805,27 +805,34 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \RaggedLeftParindent=\skip163
 \RaggedRightParindent=\skip164
 \JustifyingParindent=\skip165
+) (C:\Users\kasch\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count361
+\float@exts=\toks43
+\float@box=\box81
+\@float@everytoks=\toks44
+\@floatcapt=\box82
 ) (Schoen_Keith_Lab13.aux)
 \openout1 = `Schoen_Keith_Lab13.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -863,72 +870,134 @@ LaTeX Font Info:    ... okay on input line 186.
 
 (C:\Users\kasch\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count361
+\scratchcounter=\count362
 \scratchdimen=\dimen304
-\scratchbox=\box81
-\nofMPsegments=\count362
-\nofMParguments=\count363
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count364
+\scratchbox=\box83
+\nofMPsegments=\count363
+\nofMParguments=\count364
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count365
 \MPscratchDim=\dimen305
-\MPnumerator=\count365
-\makeMPintoPDFobject=\count366
-\everyMPtoPDFconversion=\toks44
+\MPnumerator=\count366
+\makeMPintoPDFobject=\count367
+\everyMPtoPDFconversion=\toks46
 ) (C:\Users\kasch\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\kasch\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 186.
+Package hyperref Info: Link coloring ON on input line 187.
  (Schoen_Keith_Lab13.out) (Schoen_Keith_Lab13.out)
 \@outlinefile=\write4
 \openout4 = `Schoen_Keith_Lab13.out'.
 
-\c@lstlisting=\count367
-<images/icons/logo1.png, id=6, 1121.28pt x 1121.28pt>
+\c@lstlisting=\count368
+<images/icons/logo1.png, id=38, 1121.28pt x 1121.28pt>
 File: images/icons/logo1.png Graphic file (type png)
 <use images/icons/logo1.png>
-Package pdftex.def Info: images/icons/logo1.png  used on input line 201.
+Package pdftex.def Info: images/icons/logo1.png  used on input line 202.
 (pdftex.def)             Requested size: 164.41711pt x 164.40358pt.
-<images/icons/logo2.png, id=8, 1121.28pt x 1121.28pt>
+<images/icons/logo2.png, id=40, 1121.28pt x 1121.28pt>
 File: images/icons/logo2.png Graphic file (type png)
 <use images/icons/logo2.png>
-Package pdftex.def Info: images/icons/logo2.png  used on input line 202.
+Package pdftex.def Info: images/icons/logo2.png  used on input line 203.
 (pdftex.def)             Requested size: 164.41711pt x 164.40358pt.
  [1
 
-{C:/Users/kasch/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/icons/logo1.png> <./images/icons/logo2.png>] (Schoen_Keith_Lab13.toc)
+{C:/Users/kasch/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/icons/logo1.png> <./images/icons/logo2.png>] (Schoen_Keith_Lab13.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+ (C:\Users\kasch\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+ (C:\Users\kasch\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write5
 \openout5 = `Schoen_Keith_Lab13.toc'.
 
  [1]
+<images/docker-run-command.png, id=65, 504.38437pt x 68.50594pt>
+File: images/docker-run-command.png Graphic file (type png)
+<use images/docker-run-command.png>
+Package pdftex.def Info: images/docker-run-command.png  used on input line 246.
+(pdftex.def)             Requested size: 352.31625pt x 47.85243pt.
+<images/dockerps-splunk-live.png, id=66, 505.13719pt x 144.54pt>
+File: images/dockerps-splunk-live.png Graphic file (type png)
+<use images/dockerps-splunk-live.png>
+Package pdftex.def Info: images/dockerps-splunk-live.png  used on input line 253.
+(pdftex.def)             Requested size: 375.80544pt x 107.53354pt.
+<images/splunk-as-admin.png, id=67, 762.97546pt x 499.11469pt>
+File: images/splunk-as-admin.png Graphic file (type png)
+<use images/splunk-as-admin.png>
+Package pdftex.def Info: images/splunk-as-admin.png  used on input line 266.
+(pdftex.def)             Requested size: 352.31625pt x 230.47136pt.
+<images/splunk-index-w-sysmon.png, id=68, 1240.635pt x 731.46pt>
+File: images/splunk-index-w-sysmon.png Graphic file (type png)
+<use images/splunk-index-w-sysmon.png>
+Package pdftex.def Info: images/splunk-index-w-sysmon.png  used on input line 273.
+(pdftex.def)             Requested size: 352.31625pt x 207.72046pt.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.236 \end{document}
-                     [1
+l.276 \end{figure}
+                   [1
 
-] (Schoen_Keith_Lab13.aux)
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.276 \end{figure}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.276 \end{figure}
+                   <./images/docker-run-command.png> <./images/dockerps-splunk-live.png>]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 285.
+<images/conf-of-step6.png, id=77, 503.63156pt x 377.91188pt>
+File: images/conf-of-step6.png Graphic file (type png)
+<use images/conf-of-step6.png>
+Package pdftex.def Info: images/conf-of-step6.png  used on input line 288.
+(pdftex.def)             Requested size: 305.33789pt x 229.11888pt.
+ [2
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.293 \section
+              {Forwarder Setup}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.293 \section
+              {Forwarder Setup} <./images/splunk-as-admin.png> <./images/splunk-index-w-sysmon.png>] [3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.303 \end{document}
+                     <./images/conf-of-step6.png>] (Schoen_Keith_Lab13.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
  ***********
 Package rerunfilecheck Info: File `Schoen_Keith_Lab13.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: FEA3224D36915196E4ED9E7867733961;1186.
  ) 
 Here is how much of TeX's memory you used:
- 24361 strings out of 467871
- 451073 string characters out of 5418375
- 846331 words of memory out of 5000000
- 52827 multiletter control sequences out of 15000+600000
- 630573 words of font info for 49 fonts, out of 8000000 for 9000
+ 24555 strings out of 467871
+ 454882 string characters out of 5418375
+ 851170 words of memory out of 5000000
+ 52985 multiletter control sequences out of 15000+600000
+ 633252 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,94p,587b,522s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Schoen_Keith_Lab13.pdf (3 pages, 692441 bytes).
+ <C:\Users\kasch\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Schoen_Keith_Lab13.pdf (5 pages, 1804405 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 130 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
+ 112 words of extra memory for PDF output out of 10000 (max. 10000000)
 

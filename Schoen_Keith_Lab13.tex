@@ -21,6 +21,7 @@
 \usepackage{tikzpagenodes}
 \usepackage{ragged2e}
 \usepackage{url}
+\usepackage{float}
 %\usepackage{lipsum} %remove later
 \doublespacing
 %\setlength\parindent{28 pt}
@@ -230,6 +231,72 @@
 \setcounter{page}{1}
 \pagestyle{main} %turn on fancy
 
+% ++++ Part 01: Stand Up Splunk on the Ubuntu VM ++++
+\section{Standing Up Splunk}
+\begin{notebox}
+The following section contains the steps taken to ensure that Splunk was 
+installed and running successfully. Proofs are given in screenshot and 
+written formats.
+\end{notebox}
+
+\smallskip
+\subsection{Running Splunk}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.75\linewidth]{images/docker-run-command.png}
+  \caption{Screenshot of \texttt{docker run} command ran on Ubuntu.}
+  \label{fig:docker-run-command}
+\end{figure}
+\smallskip
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.80\linewidth]{images/dockerps-splunk-live.png}
+  \caption{Screenshot of \texttt{docker ps} results showing the Splunk container is healthy.}
+  \label{fig:docker-splunk-live}
+\end{figure}
+
+\subsection{Ubuntu's IP}
+\begin{itemize}
+  \item 127.0.0.1
+\end{itemize}
+
+\subsection{Setting Sysmon Index in Splunk}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.75\linewidth]{images/splunk-as-admin.png}
+  \caption{Screenshot of Splunk GUI homepage accessed as Administrator.}
+  \label{fig:splunk-as-admin}
+\end{figure}
+\smallskip
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.75\linewidth]{images/splunk-index-w-sysmon.png}
+  \caption{Screenshot of updated Splunk GUI index page showing 'sysmon' index.}
+  \label{fig:splunk-index-w-sysmon}
+\end{figure}
+\smallskip
+\begin{notebox}
+  \textbf{Why a sysmon index?} Creating a dedicated Sysmon index keeps your 
+  endpoint telemetry isolated from other log sources, making your SPL queries 
+  faster and more precise since you can scope searches to \texttt{index=sysmon} instead 
+  of sifting through everything in main.
+\end{notebox}
+
+\subsection{Sysmon field-extractions (\texttt{props.conf})}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.65\linewidth]{images/conf-of-step6.png}
+  \caption{Screenshot of confirmation of successful \texttt{props.conf} extraction.}
+  \label{fig:conf-of-step6}
+\end{figure}
+% ++++ Part 02: Forward Windows & Sysmon Logs ++++
+\section{Forwarder Setup}
+
+% ++++ Part 03: Generate Events & Write SPL ++++
+\section{ART \& SPL}
+
+% ++++ Part 04: Build a Detection Dashboard ++++
+\section{The Dashboard}
 
 \vfill
 \textit{++report written with (minimal) help from Claude (Sonnet 4.6)++}

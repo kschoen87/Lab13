@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}Standing Up Splunk}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Running Splunk}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Ubuntu's IP}{1}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Setting Sysmon Index in Splunk}{2}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Sysmon field-extractions (\texttt {props.conf})}{3}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Forwarder Setup}{3}{section.2}%
+\contentsline {section}{\numberline {3}ART \& SPL}{3}{section.3}%
+\contentsline {section}{\numberline {4}The Dashboard}{3}{section.4}%
