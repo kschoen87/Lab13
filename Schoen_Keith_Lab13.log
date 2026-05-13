@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  12 MAY 2026 18:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  12 MAY 2026 19:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -893,12 +893,12 @@ Package hyperref Info: Link coloring ON on input line 187.
 \openout4 = `Schoen_Keith_Lab13.out'.
 
 \c@lstlisting=\count368
-<images/icons/logo1.png, id=46, 1121.28pt x 1121.28pt>
+<images/icons/logo1.png, id=50, 1121.28pt x 1121.28pt>
 File: images/icons/logo1.png Graphic file (type png)
 <use images/icons/logo1.png>
 Package pdftex.def Info: images/icons/logo1.png  used on input line 202.
 (pdftex.def)             Requested size: 164.41711pt x 164.40358pt.
-<images/icons/logo2.png, id=48, 1121.28pt x 1121.28pt>
+<images/icons/logo2.png, id=52, 1121.28pt x 1121.28pt>
 File: images/icons/logo2.png Graphic file (type png)
 <use images/icons/logo2.png>
 Package pdftex.def Info: images/icons/logo2.png  used on input line 203.
@@ -918,22 +918,22 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout5 = `Schoen_Keith_Lab13.toc'.
 
  [1]
-<images/docker-run-command.png, id=75, 504.38437pt x 68.50594pt>
+<images/docker-run-command.png, id=80, 504.38437pt x 68.50594pt>
 File: images/docker-run-command.png Graphic file (type png)
 <use images/docker-run-command.png>
 Package pdftex.def Info: images/docker-run-command.png  used on input line 247.
 (pdftex.def)             Requested size: 352.31625pt x 47.85243pt.
-<images/dockerps-splunk-live.png, id=76, 505.13719pt x 144.54pt>
+<images/dockerps-splunk-live.png, id=81, 505.13719pt x 144.54pt>
 File: images/dockerps-splunk-live.png Graphic file (type png)
 <use images/dockerps-splunk-live.png>
 Package pdftex.def Info: images/dockerps-splunk-live.png  used on input line 253.
 (pdftex.def)             Requested size: 375.80544pt x 107.53354pt.
-<images/splunk-as-admin.png, id=77, 762.97546pt x 499.11469pt>
+<images/splunk-as-admin.png, id=82, 762.97546pt x 499.11469pt>
 File: images/splunk-as-admin.png Graphic file (type png)
 <use images/splunk-as-admin.png>
 Package pdftex.def Info: images/splunk-as-admin.png  used on input line 265.
 (pdftex.def)             Requested size: 281.85587pt x 184.38013pt.
-<images/splunk-index-w-sysmon.png, id=78, 1240.635pt x 731.46pt>
+<images/splunk-index-w-sysmon.png, id=83, 1240.635pt x 731.46pt>
 File: images/splunk-index-w-sysmon.png Graphic file (type png)
 <use images/splunk-index-w-sysmon.png>
 Package pdftex.def Info: images/splunk-index-w-sysmon.png  used on input line 272.
@@ -963,7 +963,7 @@ l.278   \textbf
                {Why a sysmon index?} Creating a dedicated Sysmon index keeps... <./images/docker-run-command.png> <./images/dockerps-splunk-live.png> <./images/splunk-as-admin.png>]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 284.
-<images/conf-of-step6.png, id=88, 503.63156pt x 377.91188pt>
+<images/conf-of-step6.png, id=93, 503.63156pt x 377.91188pt>
 File: images/conf-of-step6.png Graphic file (type png)
 <use images/conf-of-step6.png>
 Package pdftex.def Info: images/conf-of-step6.png  used on input line 287.
@@ -979,12 +979,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has
                                                   \__shipout_drop_firstpage_...
 l.291 \newpage
                <./images/splunk-index-w-sysmon.png> <./images/conf-of-step6.png>]
-<images/msiexec-command-ran.png, id=98, 752.0597pt x 41.7811pt>
+<images/msiexec-command-ran.png, id=103, 752.0597pt x 41.7811pt>
 File: images/msiexec-command-ran.png Graphic file (type png)
 <use images/msiexec-command-ran.png>
 Package pdftex.def Info: images/msiexec-command-ran.png  used on input line 305.
 (pdftex.def)             Requested size: 352.31625pt x 19.57335pt.
-<images/inputconf-contents.png, id=99, 806.6386pt x 212.29312pt>
+<images/inputconf-contents.png, id=104, 806.6386pt x 212.29312pt>
 File: images/inputconf-contents.png Graphic file (type png)
 <use images/inputconf-contents.png>
 Package pdftex.def Info: images/inputconf-contents.png  used on input line 312.
@@ -993,7 +993,7 @@ File: images/dockerps-splunk-live.png Graphic file (type png)
 <use images/dockerps-splunk-live.png>
 Package pdftex.def Info: images/dockerps-splunk-live.png  used on input line 319.
 (pdftex.def)             Requested size: 352.31625pt x 100.81339pt.
-<images/evencode1-results.png, id=100, 380.17032pt x 207.02344pt>
+<images/evencode1-results.png, id=105, 380.17032pt x 207.02344pt>
 File: images/evencode1-results.png Graphic file (type png)
 <use images/evencode1-results.png>
 Package pdftex.def Info: images/evencode1-results.png  used on input line 326.
@@ -1013,111 +1013,98 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.332   \textbf
-               {Why use a forwarder?} \\ <./images/msiexec-command-ran.png> <./images/inputconf-contents.png>]
-<images/atomicrt-showdetails.png, id=110, 348.55219pt x 131.74219pt>
-File: images/atomicrt-showdetails.png Graphic file (type png)
-<use images/atomicrt-showdetails.png>
-Package pdftex.def Info: images/atomicrt-showdetails.png  used on input line 349.
-(pdftex.def)             Requested size: 352.31625pt x 133.17111pt.
- [4
+               {Why use a forwarder?} \\ <./images/msiexec-command-ran.png> <./images/inputconf-contents.png>] [4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.355 F
-       or my test, I selected T1016 - Network Configuration Discovery. I pic...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.355 F
-       or my test, I selected T1016 - Network Configuration Discovery. I pic... <./images/evencode1-results.png> <./images/atomicrt-showdetails.png>]
-Package mdframed Info: Not enough space on this page on input line 358.
-<images/query1.png, id=119, 380.17032pt x 82.80937pt>
+l.340 \newpage
+               <./images/evencode1-results.png>]
+<images/atomicrt-showdetails.png, id=121, 348.55219pt x 131.74219pt>
+File: images/atomicrt-showdetails.png Graphic file (type png)
+<use images/atomicrt-showdetails.png>
+Package pdftex.def Info: images/atomicrt-showdetails.png  used on input line 350.
+(pdftex.def)             Requested size: 352.31625pt x 133.17111pt.
+<images/query1.png, id=122, 380.17032pt x 82.80937pt>
 File: images/query1.png Graphic file (type png)
 <use images/query1.png>
-Package pdftex.def Info: images/query1.png  used on input line 368.
+Package pdftex.def Info: images/query1.png  used on input line 365.
 (pdftex.def)             Requested size: 352.31625pt x 76.74403pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--371
-
- []
-
-<images/query2.png, id=120, 377.15906pt x 120.45pt>
-File: images/query2.png Graphic file (type png)
-<use images/query2.png>
-Package pdftex.def Info: images/query2.png  used on input line 381.
-(pdftex.def)             Requested size: 352.31625pt x 112.5154pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 378--384
+Underfull \hbox (badness 10000) in paragraph at lines 362--368
 
  []
 
 [5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.374 \newpage
+              
 pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.389 \end{impactbox}
-                     
-pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.389 \end{impactbox}
-                      <./images/query1.png> <./images/query2.png>]
-<images/query3.png, id=130, 378.66469pt x 158.84344pt>
-File: images/query3.png Graphic file (type png)
-<use images/query3.png>
-Package pdftex.def Info: images/query3.png  used on input line 394.
-(pdftex.def)             Requested size: 352.31625pt x 147.79315pt.
+l.374 \newpage
+               <./images/atomicrt-showdetails.png> <./images/query1.png>]
+<images/query2.png, id=132, 377.15906pt x 120.45pt>
+File: images/query2.png Graphic file (type png)
+<use images/query2.png>
+Package pdftex.def Info: images/query2.png  used on input line 378.
+(pdftex.def)             Requested size: 352.31625pt x 112.5154pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--397
+Underfull \hbox (badness 10000) in paragraph at lines 375--381
 
  []
 
-LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 405.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 405.
+<images/query3.png, id=133, 378.66469pt x 158.84344pt>
+File: images/query3.png Graphic file (type png)
+<use images/query3.png>
+Package pdftex.def Info: images/query3.png  used on input line 391.
+(pdftex.def)             Requested size: 352.31625pt x 147.79315pt.
 
-LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbackslash' on input line 405.
+Underfull \hbox (badness 10000) in paragraph at lines 388--394
 
-<images/dashboard.png, id=131, 507.39563pt x 225.84375pt>
+ []
+
+<images/dashboard.png, id=134, 507.39563pt x 225.84375pt>
 File: images/dashboard.png Graphic file (type png)
 <use images/dashboard.png>
-Package pdftex.def Info: images/dashboard.png  used on input line 413.
+Package pdftex.def Info: images/dashboard.png  used on input line 408.
 (pdftex.def)             Requested size: 352.31625pt x 156.82137pt.
 [6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.413   I
+          added a panel to watch \texttt{powershell.exe} processes. This wil...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.418   I
-          added a panel to watch \texttt{powershell.exe} processes. This wil... <./images/query3.png>] [7
+l.413   I
+          added a panel to watch \texttt{powershell.exe} processes. This wil... <./images/query2.png> <./images/query3.png>] [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.427 \end{document}
+l.422 \end{document}
                      <./images/dashboard.png>] (Schoen_Keith_Lab13.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
  ***********
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 Package rerunfilecheck Info: File `Schoen_Keith_Lab13.out' has not changed.
-(rerunfilecheck)             Checksum: 031AFF4AFC24ECD8A2BBDE246793A21E;1467.
+(rerunfilecheck)             Checksum: C6EB4681429D92734EBB14CB8E941800;1613.
  ) 
 Here is how much of TeX's memory you used:
- 24641 strings out of 467871
- 456987 string characters out of 5418375
+ 24635 strings out of 467871
+ 456901 string characters out of 5418375
  854681 words of memory out of 5000000
- 53057 multiletter control sequences out of 15000+600000
+ 53050 multiletter control sequences out of 15000+600000
  632917 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,94p,587b,614s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Schoen_Keith_Lab13.pdf (9 pages, 2569627 bytes).
+ 84i,11n,94p,587b,541s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Schoen_Keith_Lab13.pdf (9 pages, 2561365 bytes).
 PDF statistics:
  185 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
- 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 35 named destinations out of 1000 (max. 500000)
+ 176 words of extra memory for PDF output out of 10000 (max. 10000000)
 

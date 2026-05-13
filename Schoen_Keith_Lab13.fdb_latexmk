@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1778633336.16134 "c:/Users/kasch/OneDrive/Desktop/Spring26/Defense/Lab13/Schoen_Keith_Lab13.tex" "Schoen_Keith_Lab13.pdf" "Schoen_Keith_Lab13" 1778633338.46191 0
+["pdflatex"] 1778634259.07595 "c:/Users/kasch/OneDrive/Desktop/Spring26/Defense/Lab13/Schoen_Keith_Lab13.tex" "Schoen_Keith_Lab13.pdf" "Schoen_Keith_Lab13" 1778634261.3868 0
   "C:/Users/kasch/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1778016087 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/kasch/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1763047904 13333512 082715a2fe32f3c00b1aeea1ad4f5d38 ""
   "C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/symbol/psyr.tfm" 1136797454 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -21,7 +21,6 @@
   "C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1247596666 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
-  "C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1247596667 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1247596667 31099 342ef5a582aacbd3346f3cf4579679fa ""
   "C:/Users/kasch/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb" 1247596666 24252 1e4e051947e12dfb50fee0b7f4e26e3a ""
@@ -169,11 +168,11 @@
   "C:/Users/kasch/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/kasch/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1773584792 2269 91cd03da61ab1da00145ba8a81560051 ""
   "C:/Users/kasch/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1773584792 20785 8db5f0a2b2ce96dda9fac87ccab29449 ""
-  "Schoen_Keith_Lab13.aux" 1778633338 5154 892a4ccf551396d81b96e3f543de4c3e "pdflatex"
-  "Schoen_Keith_Lab13.out" 1778633338 1467 031aff4afc24ecd8a2bbde246793a21e "pdflatex"
-  "Schoen_Keith_Lab13.tex" 1778633335 17595 66727f2ebbaef6a2f1236ed50f78f8da ""
-  "Schoen_Keith_Lab13.toc" 1778633338 810 cc75742483a9da92b063a9d961095a74 "pdflatex"
-  "c:/Users/kasch/OneDrive/Desktop/Spring26/Defense/Lab13/Schoen_Keith_Lab13.tex" 1778633335 17595 66727f2ebbaef6a2f1236ed50f78f8da ""
+  "Schoen_Keith_Lab13.aux" 1778634261 5278 4b6f0ab9439b7dafe9180845b5dbac5f "pdflatex"
+  "Schoen_Keith_Lab13.out" 1778634261 1613 c6eb4681429d92734ebb14cb8e941800 "pdflatex"
+  "Schoen_Keith_Lab13.tex" 1778634258 17258 612f0fec0427f9eb60e28453ab9cfb48 ""
+  "Schoen_Keith_Lab13.toc" 1778634261 893 0c6dbaaade9589e70563225f217fe67c "pdflatex"
+  "c:/Users/kasch/OneDrive/Desktop/Spring26/Defense/Lab13/Schoen_Keith_Lab13.tex" 1778634258 17258 612f0fec0427f9eb60e28453ab9cfb48 ""
   "images/atomicrt-showdetails.png" 1778618255 124418 cb1b7a56d7207acd45156dbeff7d1176 ""
   "images/conf-of-step6.png" 1778013287 395707 2d2903bf3d95a1ad4681e472ba72e090 ""
   "images/dashboard.png" 1778631216 99747 c55fa296f89d69448d2fd7ad164688bb ""
