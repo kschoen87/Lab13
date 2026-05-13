@@ -7,4 +7,4 @@
 \contentsline {section}{\numberline {3}ART \& SPL}{4}{section.3}%
 \contentsline {subsection}{\numberline {3.1}ART Setup}{4}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}SPL Queries}{5}{subsection.3.2}%
-\contentsline {section}{\numberline {4}The Dashboard}{6}{section.4}%
+\contentsline {section}{\numberline {4}The Dashboard}{7}{section.4}%

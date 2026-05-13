@@ -408,8 +408,20 @@ because it seemed interesting and relevant to the goals of this lab.
 
 % ++++ Part 04: Build a Detection Dashboard ++++
 \section{The Dashboard}
-
-
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.75\linewidth]{images/dashboard.png}
+  \caption{Splunk detection dashboard.}
+  \label{fig:dashboard}
+\end{figure}
+\begin{notebox}
+  I added a panel to watch \texttt{powershell.exe} processes. This will help to detect general anomalous behavior.
+  Initially, I used the SPL that was posted for this in the Lab, but with all of the normal Splunk traffice, the
+  report was extremely messy. To counter, I added a filter to exclude Splunk standard events.Specifically, an 
+  analysis will be able to see the tell tale signs of an attacker possibly living off of land byseeing unusual 
+  patterns of execution, spikes in process frequency, and odd hours of operation. The next panel I would add would 
+  be to detect for network connections by destination to track for outside communications and possible C2 activity.
+\end{notebox}
 \vfill
 \textit{++report written with (minimal) help from Claude (Sonnet 4.6)++}
 \end{document}
